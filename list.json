@@ -16,6 +16,12 @@
       "drugB": "dopamine",
       "status": "incompatible",
       "note": "Risk of precipitation"
+    },
+    {
+      "drugA": "insulin",
+      "drugB": "dopamine",
+      "status": "incompatible",
+      "note": "Risk of precipitation"
     }
   ]
 }
