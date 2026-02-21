@@ -3,7 +3,8 @@
   "drugs": [
     { "id": "heparin", "name": "Heparin" },
     { "id": "insulin", "name": "Insulin" },
-    { "id": "dopamine", "name": "Dopamine" }
+    { "id": "dopamine", "name": "Dopamine" },
+    { "id": "adrenaline", "name": "Adrenaline" }
   ],
   "compatibility": [
     {
@@ -20,6 +21,12 @@
     },
     {
       "drugA": "insulin",
+      "drugB": "dopamine",
+      "status": "incompatible",
+      "note": "Risk of precipitation"
+    },
+    {
+      "drugA": "adrenaline",
       "drugB": "dopamine",
       "status": "incompatible",
       "note": "Risk of precipitation"
